@@ -1,0 +1,183 @@
+*{  margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: Helvetica, Tahoma, Arial, Sans-serif;
+}
+body{
+    background-color: #eff0f5;
+    
+}
+header{
+    border-bottom:#cacaca ;
+}
+.container{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    background-color: #ffffff;
+}
+.logo{
+    height: 50px;
+    width: 150px;
+    padding-left: 15px;
+}
+.categories ul{
+    display: flex;
+    margin-left: 120px;
+    
+}
+.categories ul li{
+    padding: 20px 0px 0px 15px;
+}
+.pages ul{
+    display: flex;
+    margin-left: 200px;
+
+}
+.pages ul li{
+    padding: 20px 0px 0px 10px;
+}
+
+/*=============================SECTION FOR CART==================================================================*/
+.section{
+    height: 270px;
+    background-color: #ffffff;
+    width: 1250px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 100px;
+}
+.cart{
+    width: 200px;
+    margin: auto;
+    text-align: center;
+    padding-top: 30px;
+}
+.section2{
+    margin-top: 40px;
+}
+#cart {
+    border-collapse: collapse;
+    width: 100%;
+    border:#eff0f5 ;
+    margin-top: 30px;
+
+  }
+#cart tr:hover{
+    background-color: #ececec;
+}
+th{
+    text-align: center;
+    padding: 30px 8px 8px 8px;
+}
+  td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+
+  }
+/*=============SECTION FOR ACCOUNT=========================================*/
+.section3{
+    height: 190px;
+    background-color: #ffffff;
+    width: 1250px;
+    margin: auto;
+    margin-bottom: 150px;
+}
+.edit{
+    margin: 30px 0px 0px 1200px;
+    font-size: 12px;
+
+    
+}
+#name{
+    border-collapse: collapse;
+    width: 100%;
+    border: #ffffff ; 
+}
+#name tr td{
+    padding: 30px 8px 8px 50px ;
+}
+#name tr:hover{
+    background-color: #ececec;
+}#name td{
+    border-bottom: none;
+}
+
+
+/*=================EDIT ACCOUNT===================*/
+
+.section4{
+        height: 390px;
+        background-color: #ffffff;
+        width: 1250px;
+        margin: auto;
+        margin-top: 50px;
+        margin-bottom: 100px;
+}
+#account tr td{
+    padding: 15px 8px 8px 50px ;
+
+}
+#account td{
+    border-bottom: none;
+}
+input{
+    width: 600px;
+    height: 20px;
+    margin-left: 340px;
+}
+#save{
+    width: 80px;
+    height: 25px;
+    margin-left: 560px;
+    border-width: 1px;
+    border-radius: 5px;
+    background-color:#28a745 ;
+}
+#account tr:hover{
+    background-color: #ececec;
+}
+
+
+/*footer*/
+footer{
+    height: 120px;
+    width: 100%;
+    background-color: #ffffff;
+    bottom: 0;
+}
+.container3{
+    display: flex;
+}
+.links{
+    display: flex;
+    margin-top: 10px;
+}
+.one{
+    width: 200px;
+    padding: 30px 0px 0px 300px ;
+}
+.two{
+    width: 200px;
+    padding: 40px 0px 0px 300px ;
+}
+.one ul a li{
+    padding-right: 15px;
+}
+a{
+    color: #252f7b;
+}
+a:hover{
+    color: #f95031;
+}
+
+@media screen and (max-width: 440px){
+    
+    footer{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}

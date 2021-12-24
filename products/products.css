@@ -1,0 +1,130 @@
+*{  margin: 0;
+    padding: 0;
+    list-style: none;
+    font-family: Helvetica, Tahoma, Arial, Sans-serif;
+}
+body{
+    background-color: #eff0f5;
+}
+header{
+    border-bottom:#cacaca ;
+}
+.container{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    background-color: #ffffff;
+    
+}
+.logo{
+    height: 50px;
+    width: 150px;
+    padding-left: 15px;
+}
+.categories ul{
+    display: flex;
+    margin-left: 120px;
+    
+}
+.categories ul li{
+    padding: 20px 0px 0px 15px;
+}
+.pages ul{
+    display: flex;
+    margin-left: 200px;
+
+}
+.pages ul li{
+    padding: 20px 0px 0px 10px;
+}
+
+/*section*/
+
+.section{
+    height: 450px;
+    background-color: #ffffff;
+    width: 1250px;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 70px;
+}
+.section2{
+    margin: auto;
+    height:400px;
+    width: 250px;
+}
+.title{
+    width: 250px;
+    text-align: center;
+}
+h1{
+    padding: 20px 0px 5px 0px;
+}
+.img{
+    padding: 20px 0px 5px 0px;  
+    height:250px;
+    width: 250px;
+    margin: auto;
+}
+em{
+    padding: 5px 0px 5px 100px; 
+}
+form{
+    padding: 5px 0px 5px 0px; 
+}
+label{
+    font-size: small;
+}
+.input{
+    height: 25px;
+    width: 110px;
+    border-radius: 3px;
+    border-width: 1px;
+    
+}
+.button{
+    width: 105px;
+    height: 27px;
+    border-radius: 3px ;
+    border-width: 1px;
+    background-color: #007bff;
+}
+p{
+    padding: 5px 0px 0px 40px; 
+    font-size: small;
+}
+/*footer*/
+footer{
+    height: 120px;
+    width: 100%;
+    background-color: #ffffff;
+    bottom: 0;
+}
+.container3{
+    display: flex;
+}
+.links{
+    display: flex;
+    margin-top: 10px;
+}
+.one{
+    width: 200px;
+    padding: 30px 0px 0px 300px ;
+}
+.two{
+    width: 200px;
+    padding: 40px 0px 0px 300px ;
+}
+.one ul a li{
+    padding-right: 15px;
+}
+a{
+    color: #252f7b;
+}
+a:hover{
+    color: #f95031;
+}
+
+@media  screen and (max-width: 1275px ) {
+   
+}
